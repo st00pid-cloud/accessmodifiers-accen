@@ -6,7 +6,7 @@ public class Product {
     int stock = 15;
     String getInfo() {
         return String.format(
-                "Product: %s | Price: ₱%.2f | Stock: %d units",
+                "Product: %s - Price: %.1f ( %d in stock)",
                 productName, price, stock
         );
     }
